@@ -1,6 +1,9 @@
 @charset "utf-8";
 body {
+/*estilo de fontes*/
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(61, 60, 60);
+    background: url(../SITE/imagens/casamento.png);
     color: blue;
+
 }
