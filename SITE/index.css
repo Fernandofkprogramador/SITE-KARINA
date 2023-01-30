@@ -3,41 +3,70 @@ body {
 /*estilo de fontes*/
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: url(../SITE/imagens/casamento.png);
+    background-color: black;
     color: blue;
 }
 
 /*CONFIGURACAO DA INTERFACE*/
 div#interface {
 
-    width: 1070px;
-    height: 2000px;
-    background-color: rgba(0, 0, 0, 0.2);
+    width: 1200px;
     margin: -20px auto 10px auto;
+    background-color: rgba(158, 155, 155, 0.3);
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
-    padding: 10px 10px 10px 10px;
 
 }
 
 /*CONFIGURACAO DO CABEÇALHO*/
 header#cabecalho {
-    border-bottom: 2px rgb(0, 0, 0) solid;
-    background: url(../SITE/imagens/cabeçalho.jpg);
-    background-size: contain;
-    margin: auto;
-    padding: 30px;
+    background: url(../SITE/imagens/camera\ branca.png);
+    background-repeat: no-repeat;
+    background-position-x: 145px;
+    margin: 0px;
+
 }
 
 header#cabecalho h1 {
-    color: rgb(239,184,16);
+    color: white;
     font-size: 35pt;
-    text-align: center;
-    margin-top: -5px;
-    margin-bottom: -5px;
+    font-family: 'segoe script', sans-serif;
+    padding-top: 40px;
+    margin-left: 15px;
 }
 header#cabecalho h2 {
-    color: blueviolet;
-    text-align: center;
-    margin-top: -5px;
-    margin-bottom: -5px;
+    color: white;
+    font-size: 15pt;
+    font-family: 'papyrus', sans-serif;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.menu1 {
+    list-style: none;
+    margin: 0px;
+    margin-left: 580px;
+    margin-top: -90px;
+}
+
+.menu1 li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu1 li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+    font-family: 'papyrus', sans-serif;
+    font-size: 25pt;
+}
+div#conteudos {
+    margin: 0%;
+}
+
+figure.fotolegenda img {
+    width: 1200px;
+    margin-left: -40px;
+    margin-top: 10px;
 }
