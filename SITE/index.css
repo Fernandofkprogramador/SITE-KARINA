@@ -127,3 +127,52 @@ div#conteudos h1 {
     margin-top: -230px;
     margin-left: -30px;
 }
+/* CONFIGURACAO DO ALBUM DE DEPOIMENTOS */
+
+ul#depoimentos {
+    width: 1100px;
+    margin-left: -210px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#depoimentos li {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+ul#depoimentos li span {
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+ul#depoimentos li:hover span {
+    opacity: 1;
+}
+
+ul#depoimentos li#foto1 {
+    background: url(../SITE/imagens/casal1.jpg) no-repeat;
+
+}
+
+ul#depoimentos li#foto2 {
+    background: url(../SITE/imagens/casal2.jpg) no-repeat;
+
+}
+
+ul#depoimentos li#foto3 {
+    background: url(../SITE/imagens/casal3.jpg) no-repeat;
+}
+
+ul#depoimentos li#foto4 {
+    background: url(../SITE/imagens/casal4.jpg) no-repeat;
+}
+
