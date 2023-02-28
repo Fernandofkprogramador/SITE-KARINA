@@ -233,3 +233,54 @@ figure.casal3 figcaption {
 figure.casal3:hover figcaption {
     opacity: 1;
 }
+
+/*CONFIGURACAO DO RODAPE*/
+footer#rodapé {
+    background: url(../SITE/imagens/camera\ branca.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 0px;
+
+}
+
+footer#rodapé h1 {
+    color: white;
+    font-size: 35pt;
+    font-family: 'segoe script', sans-serif;
+    padding-top: 40px;
+    margin-left: 450px;
+}
+footer#rodapé h2 {
+    color: white;
+    font-size: 15pt;
+    font-family: 'papyrus', sans-serif;
+    margin-top: -50px;
+    margin-left: 450px;
+}
+
+
+footer#rodapé ul#rodapé1 {
+    list-style: none;
+
+}
+footer#rodapé ul#rodapé1 li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+footer#rodapé ul#rodapé1 li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'papyrus', sans-serif;
+    font-size: 20pt;
+}
+footer#rodapé ul#rodapé1 li a:hover {
+    text-decoration: underline;
+}
+
+footer#rodapé ul#sociais{
+    position: relative;
+    margin-left: 900px;
+    margin-top: -70px;
+
+}
