@@ -105,7 +105,7 @@ figure.fotolegenda figcaption {
     transition: opacity 1s;
     text-align: center;
     font-size: 30pt;
-    padding-top: 150px;
+    padding-top: 90px;
 }
 
 figure.fotolegenda:hover figcaption {
@@ -126,151 +126,6 @@ div#conteudos h1 {
     font-size: 30pt;
     margin-top: 0;
 }
-
-/*CONFIGURACAO DOS DESTAQUES*/
-
-div#destaques {
-    background-color: antiquewhite;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    color: black;
-    border-bottom: 8px solid white;
-}
-/*casal1*/
-figure.casal1 {
-    position: relative;
-}
-
-figure.casal1 img {
-    width: 300px;
-    margin-left: 80px;
-}
-
-figure.casal1 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 80px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-    
-}
-
-figure.casal1:hover figcaption {
-    opacity: 1;
-}
-
-figure.casal1 figcaption a {
-    text-decoration: none;
-    color: white;
-}
-
-/*casal2*/
-
-figure.casal2 {
-    position: absolute;
-    margin-top: -224px;
-    margin-left: 455px;
-}
-
-figure.casal2 img {
-    width: 300px;
-}
-
-figure.casal2 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-}
-
-figure.casal2:hover figcaption {
-    opacity: 1;
-}
-
-/*casal3*/
-
-figure.casal3 {
-    position: absolute;
-    margin-top: -224px;
-    margin-left: 790px;
-}
-
-figure.casal3 img {
-    width: 300px;
-    height: 200px;
-}
-
-figure.casal3 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-}
-
-figure.casal3:hover figcaption {
-    opacity: 1;
-}
-
-/* CONFIGURACAO DO QUE OS CLIENTES FALAM */
-div#clientesfalam {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 100px;
-    margin-top: -30px;
-}
-
-div#clientesfalam h1 {
-    margin-top: -80px;
-}
-
-figure.fotodepoimentos {
-    position: relative;
-}
-
-figure.fotodepoimentos img {
-    width: 200px;
-    height: 200px;
-    margin-left: 350px;
-    margin-top: 10px;
-    border-radius: 100%;
-}
-div#clientesfalam input#botao1 {
-    margin-left: 430px;
-
-}
-
 /* CONFIGURACAO DO ALBUM DE DEPOIMENTOS */
 /*casal1*/
 figure.casal1 {
@@ -320,6 +175,7 @@ figure.casal2 {
 
 figure.casal2 img {
     width: 300px;
+    height: 200px;
 }
 
 figure.casal2 figcaption {
@@ -376,115 +232,6 @@ figure.casal3 figcaption {
 }
 
 figure.casal3:hover figcaption {
-    opacity: 1;
-}
-
-/*casal4*/
-
-figure.casal4 {
-    position: relative;
-}
-
-figure.casal4 img {
-    width: 300px;
-    margin-left: 80px;
-}
-
-figure.casal4 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 80px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-    
-}
-
-figure.casal4:hover figcaption {
-    opacity: 1;
-}
-
-figure.casal4 figcaption a {
-    text-decoration: none;
-    color: white;
-}
-
-/*casal5*/
-
-figure.casal5 {
-    position: absolute;
-    margin-top: -224px;
-    margin-left: 455px;
-}
-
-figure.casal5 img {
-    width: 300px;
-    height: 200px;
-}
-
-figure.casal5 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-}
-
-figure.casal5:hover figcaption {
-    opacity: 1;
-}
-
-/*casal6*/
-
-figure.casal6 {
-    position: absolute;
-    margin-top: -224px;
-    margin-left: 790px;
-}
-
-figure.casal6 img {
-    width: 300px;
-    height: 200px;
-}
-
-figure.casal6 figcaption {
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    width: 300px;
-    height: 200px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: auto;
-    box-sizing: border-box;
-    transition: opacity 1s;
-    text-align: center;
-    font-size: 20pt;
-    padding-top: 50px;
-}
-
-figure.casal6:hover figcaption {
     opacity: 1;
 }
 
