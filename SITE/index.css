@@ -245,34 +245,21 @@ figure.casal3:hover figcaption {
 }
 
 /* CONFIGURACAO DO QUE OS CLIENTES FALAM */
-div#clientesfalam {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 100px;
-    margin-top: -30px;
-}
 
-div#clientesfalam h1 {
-    margin-top: -80px;
+input#botao1 {
+    margin-left: 290px;
+    margin-top: 380px;
+    opacity: 0.7;
 }
-
-figure.fotodepoimentos {
-    position: relative;
-}
-
-figure.fotodepoimentos img {
-    width: 200px;
-    height: 200px;
-    margin-left: 350px;
-    margin-top: 10px;
-    border-radius: 100%;
-}
-div#clientesfalam input#botao1 {
-    margin-left: 430px;
-
+input#botao2 {
+    opacity: 0.7;
 }
 
 /* CONFIGURACAO DO ALBUM DE DEPOIMENTOS */
 /*casal1*/
+div#depoimentos {
+    border-top: 8px solid white;
+}
 figure.casal1 {
     position: relative;
 }

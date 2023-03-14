@@ -7,8 +7,45 @@
     <link rel="shortcut icon" href="imagens/favicon.ico.png" type="image/x-icon">
     <title>Karina Fotos</title>
     <link rel="stylesheet" href="index.css">
+    <script language="javascript">
+        function iniciaSlider() {
+            max=3;
+            min=1;
+            fi=min;
+            carregaFoto("imagens/f1.jpg")
+        }
+        function carregaFoto(foto) {
+            document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+
+        }
+        function prox() {
+            fi++;
+            if(fi>max)(fi=min);
+            carregaFoto("imagens/f"+fi+".jpg");
+
+        }
+        function ant() {
+            fi--;
+            if(fi<min)(fi=max);
+            carregaFoto("imagens/f"+fi+".jpg");
+
+        }
+    </script>
+
+    <style>
+        #moldura{
+            width: 728px;
+            height: 410px;
+            background-color: #eeeeee;
+            transition: 2s;
+            margin-left: 230px;
+            margin-bottom: 10px;
+            margin-top: -20px;
+        }
+
+    </style>
 </head>
-<body>
+<body onload="iniciaSlider()">
     <div id="interface">
         <header id="cabecalho">
             <hgroup>
@@ -57,20 +94,11 @@
                     </figcaption>
             </div>
             <div id="clientesfalam">
-
-
-
                     <h1>O QUE OS CLIENTES DIZEM</h1>
-                    <figure class="fotodepoimentos">
-                    <img src="imagens/ponte.jpg" alt="paisagem">
-                    <figcaption>
-                        
-                    </figcaption>
-                    
-                </figure>
-                <p>ipson Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, cupiditate! Impedit dolore doloribus quaerat id sint nisi itaque quisquam praesentium eum cupiditate, non nihil, reprehenderit numquam, natus voluptatem laudantium dolor!</p>
-                <input id="botao1" type="button" value="Anterior">
-                <input id="botao2" type="button" value="Proximo">
+                <div id="moldura">    
+                    <input id="botao1" type="button" value="Anterior" onclick="ant()">
+                    <input id="botao2" type="button" value="Proximo" onclick="prox()">
+                </div>
 
                     
             </div>
